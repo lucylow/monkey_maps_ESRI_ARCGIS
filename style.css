@@ -1,23 +1,24 @@
-#info {
-        top: 20px;
-        color: #444;
-        height: auto;
-        font-family: arial;
-        right: 20px;
-        margin: 5px;
-        padding: 10px;
-        position: absolute;
-        width: 115px;
-        z-index: 40;
-        border: solid 2px #666;
-        border-radius: 4px;
-        background-color: #fff;
-      }
-      html, body, #mapDiv {
-        padding:0;
-        margin:0;
-        height:100%;
-      }
-      button {
-        display: block;
-      }
+video#captured-media {
+  width: 100%;
+  height: calc(width * 16 / 9);
+}
+
+.profile-name {
+  display: none;
+}
+
+.profile-header {
+  height: 800px;
+}
+
+a.logo {
+  display: inline-block;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  width: 128px;
+  height: 31px;
+  background-image: url("//www.tinymce.com/images/logo-tinymce-onblue@2x.png");
+  background-size: 128px 31px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
