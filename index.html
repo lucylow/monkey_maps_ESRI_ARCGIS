@@ -1,38 +1,55 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - A Pen by Jamie Powell</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-    <!--The viewport meta tag is used to improve the presentation and behavior of the samples 
-      on iOS devices-->
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
-    <title>Shapes and Symbols</title>
-
     <link rel="stylesheet" href="https://js.arcgis.com/3.8/js/esri/css/esri.css">
-
-    <style>
-     
-    </style>
-
     <script src="https://js.arcgis.com/3.8/"></script>
-    <script>
-      
-    </script>
+    
+   
+
+  <meta charset="utf-8">
+  <meta name="description" content="WebRTC code samples">
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+  <meta itemprop="description" content="Client-side WebRTC code samples">
+ 
+  <meta itemprop="name" content="WebRTC code samples">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta id="theme-color" name="theme-color" content="#ffffff">
+
+  <base target="_blank">
+
+  <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../../../css/main.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+
   </head>
   
+  
+  
+  
+  
+  
+  
+  
+  
   <body>
+<h1>DocuSign Monkey Maps </h1>
+
+    
+     <p>Display the dynamic web-maps screensharing stream. Record the mapping process where stakeholders and chimpanzee experts should be able to draw on the shared eastern chimpanzee ranges map new points, lines or polygons along with notes, comments and, if possible, enable a way to provide data, that better capture the latest knowledge of chimpanzee ranges and where the range polygons maps need to be changed: </p>
+  <div id="container">
+
+
+    
+    <screen-sharing></screen-sharing>
+
+
+
+ 
+  </div>
     
     <div id="info">
-      <div>Select a shape then draw on map to add graphic</div>
+      <div>Select a shape then draw on map to add graphic to the Monkey Map:</div>
       <button id="Point">Point</button>
       <button id="Multipoint">Multipoint</button>
       <button id="Line">Line</button>
@@ -44,14 +61,12 @@
       <button id="Ellipse">Ellipse</button>
       <button id="Polygon">Polygon</button>
       <button id="FreehandPolygon">Freehand Polygon</button>
+            <button id="FreehandPolygon">Change Basemap</button>
     </div>
-
-    <div id="mapDiv"></div>
+          
+             
+    <div id="viewDiv"></div>
 
   </body>
 </html>
-<!-- partial -->
-  <script  src="./script.js"></script>
 
-</body>
-</html>
